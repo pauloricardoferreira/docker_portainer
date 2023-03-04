@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:  
+  portainer:
+    image: portainer/portainer-ce:2.17.1-alpine
+    container_name: portainer
+    restart: always
+    ports:
+     - 9003:9000
+    volumes:
+     - /etc/timezone:/etc/timezone:ro
+     - /etc/localtime:/etc/localtime:ro
+     - /var/run/docker.sock:/var/run/docker.sock
+     - /var/lib/docker/volumes:/var/lib/docker/volumes
+     - portainer_data:/data
+    
+volumes:
+  portainer_data:
