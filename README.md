@@ -7,9 +7,6 @@ Para que este projeto funcione corretamente é necessário seguir os passos em: 
 
 ## Repositórios para usar como Stak no Portainer
 
-* [Apache Hop - Configuração de Desenvolvimento](https://github.com/pauloricardoferreira/hop_configurar_local_desenvolvimento)
-  * https://github.com/pauloricardoferreira/hop_configurar_local_desenvolvimento.git
-
 * [Apache Airflow](https://github.com/pauloricardoferreira/docker_airflow)
   * https://github.com/pauloricardoferreira/docker_airflow.git
 
