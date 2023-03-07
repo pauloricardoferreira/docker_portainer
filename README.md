@@ -4,6 +4,10 @@ Este repositório contem docker-compose com o Portainer
 
 Para que este projeto funcione corretamente é necessário seguir os passos em: [Docker - Instalar e Configurar](https://github.com/pauloricardoferreira/docker_instalar_configurar)
 
+<br>
+
+Documentação [Portainer](https://www.portainer.io/)
+
 
 ## Repositórios para usar como Stak no Portainer
 
